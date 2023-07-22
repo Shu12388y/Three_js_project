@@ -1,0 +1,46 @@
+html,body{
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+.webgl{
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,);
+  z-index: 1;
+}
+.head{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  z-index: 2;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 3rem;
+
+
+}
